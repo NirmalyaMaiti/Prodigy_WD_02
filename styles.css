@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 3rem;
+    color: #ff6b6b;
+    text-shadow: 1px 1px 2px #ffb3b3;
+}
+
+#mode-selection {
+    margin-bottom: 20px;
+}
+
+.mode-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.mode-btn:hover {
+    background-color: #ff3f3f;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    background-color: #ffe4b5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ff6b6b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cell:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+}
+
+#status {
+    margin: 20px;
+    font-size: 1.8rem;
+    color: #ff6b6b;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ffb3b3;
+}
+
+.restart-btn {
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.restart-btn:hover {
+    background-color: #28a428;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
